@@ -2,3 +2,22 @@
   width: 100%;
   padding: 10px 200px;
 }
+#cards img{
+  padding: 15px;
+}
+#cards .card-body span{
+  padding: 15px;
+  margin: 3px;
+  color: #6070ff;
+  background-color:#ebebff;
+}
+#card-1 .row{
+  display: flex;
+  flex-direction: row-reverse;
+}
+#card-3 .row{
+  display: flex;
+  flex-direction: row-reverse;     
+  }
+
+
