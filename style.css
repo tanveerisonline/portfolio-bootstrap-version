@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .navbar-class {
   width: 100%;
   padding: 10px 200px;
@@ -17,6 +21,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-size: 90%;
 
 }
 
@@ -38,4 +43,25 @@
   line-height: 24px;
   padding: 20px 10px 8px 10px;
   color: #344563;
+}
+
+#cards img {
+  padding: 15px;
+}
+
+#cards .card-body span {
+  padding: 15px;
+  margin: 3px;
+  color: #6070ff;
+  background-color: #ebebff;
+}
+
+#card-1 .row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#card-3 .row {
+  display: flex;
+  flex-direction: row-reverse;
 }
