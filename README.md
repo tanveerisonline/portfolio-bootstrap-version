@@ -1,13 +1,16 @@
 # Project Name
 
-> This project is a portfolio website which is created using pure Html5 and Css3.
+> This project is a portfolio website which is created using pure Bootstrap5, Html5 and Css3.
 > This project has both features its mobile friendly as well as desktop too.
-> This portfolio project is now hosted and the link is given in the deployement section.
+> This portfolio project is developed in collabration
 
 ## Built With
 
 - Html
 - Css
+- Bootstrap
+- font-Awesome-Icons
+- Google-fonts
 
 ## Getting Started
 
@@ -20,7 +23,7 @@ Git must be installed on you machine.
 ### Setup
 
 Clone this repository by using the command line :
-`git clone https://github.com/asifaminisonline/portfolio_website/`
+`https://github.com/tanveerisonline/portfolio-bootstrap-version.git`
 
 ### Install
 
@@ -30,13 +33,15 @@ Clone this repository by using the command line :
 
 ### Deployment
 
-click here to visit: https://asifaminisonline.github.io/
-
 ## Authors
 
 👤 **Author1**
 
 - GitHub: [@asifaminisonline](https://github.com/asifaminisonline/)
+
+👤 **Author2**
+
+- GitHub: [@tanveerisonline](https://github.com/tanveerisonline/)
 
 ## 🤝 Contributing
 
