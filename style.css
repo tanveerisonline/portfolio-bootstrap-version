@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -24,7 +25,6 @@ body {
   flex-direction: column;
   justify-content: center;
   background-size: 90%;
-
 }
 
 .heading-text {
@@ -46,8 +46,10 @@ body {
   padding: 20px 10px 8px 10px;
   color: #344563;
 }
-#social-links-1 , .connect-1{
-  margin-left: 310px; 
+
+#social-links-1,
+.connect-1 {
+  margin-left: 310px;
 }
 
 #cards img {
@@ -71,62 +73,79 @@ body {
   flex-direction: row-reverse;
 }
 
-#card-0 , #card-1 , #card-2 , #card-3 , #card-4{
-  margin: 50px 0px;
+#card-0,
+#card-1,
+#card-2,
+#card-3,
+#card-4 {
+  margin: 50px 0;
 }
-#social-links li ,#social-links-1 li{
+
+#social-links li,
+#social-links-1 li {
   padding-right: 20px;
   list-style: none;
 }
-#contact{
+
+#contact {
   justify-content: center;
   background: #6070ff;
-    background-image: url(./assets/desktop/contact\ form\ background\ shapes.png);
-    width: 100%;
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-x: right;
+  background-image: url(./assets/desktop/contact\ form\ background\ shapes.png);
+  width: 100%;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-x: right;
 }
-#contact .contact-form{
+
+#contact .contact-form {
   width: 400px;
-  margin-left:10px;
+  margin-left: 10px;
 }
-#contact .contact-title{
+
+#contact .contact-title {
   height: 10px;
-padding-top: 60px;
-color: #fff;
-text-align: center;
+  padding-top: 60px;
+  color: #fff;
+  text-align: center;
 }
-#contact .contact-text{
+
+#contact .contact-text {
   height: 50px;
   color: #fff;
   font-size: 20px;
   text-align: center;
+}
+
+#contact button {
+  position: relative;
+  left: 35%;
+}
+
+@media only screen and (max-width: 768px) {
+  .heading-text {
+    margin-left: 120px;
   }
-  #contact button{
-    position: relative;
-    left: 35%;
+
+  .bio {
+    margin-left: 110px;
   }
-  @media only screen and (max-width: 768px) {
-    .heading-text {
-     margin-left: 120px;   
-    }
-    
-    .bio {
-      margin-left: 110px; 
-    }
-    .navbar-class{
+
+  .navbar-class {
     padding: 20px 30px;
-    }
-    #social-links-1 , .connect-1{
-      margin-left: 110px; 
-    }
-    #contact button{
-      position: relative;
-      left: 5%;
-    }
-    #contact .contact-form{
-      width: 100%;
-    }
   }
+
+  #social-links-1,
+  .connect-1 {
+    margin-left: 110px;
+  }
+
+  #contact button {
+    position: relative;
+    left: 5%;
+  }
+
+  #contact .contact-form {
+    width: 100%;
+  }
+}
